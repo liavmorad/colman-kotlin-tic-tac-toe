@@ -8,11 +8,15 @@
 
     <TextView
         android:id="@+id/titleTurn"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/teal_700"
         android:text="@string/title"
+        android:textAlignment="center"
         android:textColor="@color/black"
+        android:textSize="40sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,44 +32,64 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout style="@style/row">
+
             <Button
-                android:id="@+id/a1" style="@style/column"/>
+                android:id="@+id/a1"
+                style="@style/column" />
 
-            <View style="@style/verticalLine"/>
+            <View style="@style/verticalLine" />
 
-            <Button android:id="@+id/a2" style="@style/column"/>
+            <Button
+                android:id="@+id/a2"
+                style="@style/column" />
 
-            <View style="@style/verticalLine"/>
+            <View style="@style/verticalLine" />
 
-            <Button android:id="@+id/a3" style="@style/column"/>
+            <Button
+                android:id="@+id/a3"
+                style="@style/column" />
         </LinearLayout>
 
-        <View style="@style/horizontalLine"/>
+        <View style="@style/horizontalLine" />
 
         <LinearLayout style="@style/row">
-            <Button android:id="@+id/b1" style="@style/column"/>
 
-            <View style="@style/verticalLine"/>
+            <Button
+                android:id="@+id/b1"
+                style="@style/column" />
 
-            <Button android:id="@+id/b2" style="@style/column"/>
+            <View style="@style/verticalLine" />
 
-            <View style="@style/verticalLine"/>
+            <Button
+                android:id="@+id/b2"
+                style="@style/column" />
 
-            <Button android:id="@+id/b3" style="@style/column"/>
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/b3"
+                style="@style/column" />
         </LinearLayout>
 
-        <View style="@style/horizontalLine"/>
+        <View style="@style/horizontalLine" />
 
         <LinearLayout style="@style/row">
-            <Button android:id="@+id/c1" style="@style/column"/>
 
-            <View style="@style/verticalLine"/>
+            <Button
+                android:id="@+id/c1"
+                style="@style/column" />
 
-            <Button android:id="@+id/c2" style="@style/column"/>
+            <View style="@style/verticalLine" />
 
-            <View style="@style/verticalLine"/>
+            <Button
+                android:id="@+id/c2"
+                style="@style/column" />
 
-            <Button android:id="@+id/c3" style="@style/column"/>
+            <View style="@style/verticalLine" />
+
+            <Button
+                android:id="@+id/c3"
+                style="@style/column" />
         </LinearLayout>
 
     </LinearLayout>

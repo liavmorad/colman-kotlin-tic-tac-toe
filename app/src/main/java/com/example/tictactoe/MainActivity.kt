@@ -54,6 +54,8 @@ class MainActivity : AppCompatActivity() {
 
         if (fullBoard())
             result("Draw")
+
+        setTurnLabel();
     }
 
     private fun checkForVictory(s: String): Boolean {
